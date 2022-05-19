@@ -12,6 +12,7 @@ function Home() {
         setData(JSON.stringify(data));
       });
   }, []);
+  
 
   return data;
 }
